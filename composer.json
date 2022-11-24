@@ -1,0 +1,24 @@
+{
+    "name": "gcoffee/view",
+    "description": "The gCoffee-machine View package, Using a Laravel Blade templates without the full Laravel framework",
+    "license": "MIT",
+    "homepage": "https://github.com/mrgrfreitas/machine-view",
+    "authors": [{
+        "name": "Geraldo Freitas",
+        "email": "geraldofreitas@users.noreply.github.com"
+    }],
+    "require": {
+        "php": "^8.0.2",
+        "illuminate/contracts": "^9.0",
+        "illuminate/events": "^9.0",
+        "illuminate/filesystem": "^9.0",
+        "illuminate/view": "^9.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Machine\\View\\": "src/"
+        }
+    }
+}
+
